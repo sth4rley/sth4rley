@@ -1,16 +1,34 @@
-### Hi there 👋
 
-<!--
-**sth4rley/sth4rley** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```cpp
+sth@fedora~: cat whoami.cpp
 
-Here are some ideas to get you started:
+#include <iostream>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Me {
+  public:
+    Me(){};
+
+    void sayHello() const {
+      std::cout << "Welcome to my profile!\n";
+  }
+
+  public:
+    std::string name = "Stharley";
+    std::string age = "21";
+    std::string skills = "Developer, Contestant";
+    std::string tech = "Linux, Git, Python, C/C++, JavaScript";
+    std::string extra = "x86_64 assembly";
+
+  private:
+    std::string secret = "Nothing Here...";
+};
+
+int main() {
+  Me Stharley;
+
+  Stharley.sayHello();
+
+  return EXIT_SUCCESS;
+}
+
+```
