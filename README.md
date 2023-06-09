@@ -17,7 +17,7 @@ class Me {
     std::string age = "21";
     std::string skills = "Developer, Contestant";
     std::string tech = "Linux, Git, Python, C/C++, JavaScript";
-    std::string extra = "x86_64 assembly";
+    std::string extra = "Assembly";
 
   private:
     std::string secret = "Nothing Here...";
